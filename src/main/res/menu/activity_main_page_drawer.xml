@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Group" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/nav_mywalk"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Track My Walk" />
+        <item
+            android:id="@+id/nav_goodplace"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Good Place" />
+        <item
+            android:id="@+id/nav_Challenge"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Challenge" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Setting" />
+    </group>
+</menu>
